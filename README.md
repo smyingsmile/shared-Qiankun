@@ -8,6 +8,17 @@
 主要使用 VUE(JS) + iview
 主应用通信目前仅接通 mirco-vue-app
 
+依赖安装请看 package.json 文件
+
+**yarn examples: install 安装所有依赖**
+
+**yarn examples: start 启动所有应用**
+
+**启动单个命令请看配置文件** 
+
+**如果项目子应用名称有变动, 应修改配置文件**
+
+
 
 ## 微前端
 ### 优势
