@@ -1,0 +1,26 @@
+{
+    "name": "micro-view",
+    "version": "1.0.0",
+    "description": "IviewDemo",
+    "main": "index.js",
+    "scripts": {
+        "examples:install": "npm-run-all --serial install:*",
+        "examples:start": "npm-run-all --parallel start:*",
+        "install:main": "cd iview-admin && yarn",
+        "start:main": "cd iview-admin && yarn serve",
+        "install:iview": "cd iview-admin-pro && yarn",
+        "start:iview": "cd iview-admin-pro && yarn start",
+        "install:vue": "cd micro-app-vue && yarn",
+        "start:vue": "cd micro-app-vue && yarn serve",
+        "install:static": "cd micro-app-static && yarn",
+        "start:static": "cd micro-app-static && yarn start"
+    },
+    "repository": {
+        "type": "git"
+    },
+    "author": "smy",
+    "license": "ISC",
+    "devDependencies": {
+        "npm-run-all": "^4.1.5"
+    }
+}
